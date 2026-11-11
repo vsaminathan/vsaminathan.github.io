@@ -1,3 +1,8 @@
+---
+layout: default
+title: PageQualis Privacy Policy
+---
+
 # PageQualis Privacy Policy
 
 Last updated: November 11, 2026
