@@ -1,11 +1,11 @@
 ---
 layout: default
 title: PageQualis Privacy Policy
+description: Privacy policy for PageQualis, a chrome browser extension for content-quality and accessibility issues.
 ---
 
 # PageQualis Privacy Policy
-
-Last updated: November 11, 2026
+<div class="last-updated">Last updated: November 11, 2026</div>
 
 PageQualis is a browser extension that checks the web page you are viewing for common content-quality
 and accessibility issues.
@@ -43,6 +43,10 @@ your page is added to the link, and it is opened without sending a referrer.
 
 **Changes to this policy:** Any changes to this Privacy Policy will be reflected on this page, along with an updated "Last updated" date. Material changes to how PageQualis handles information will be clearly communicated to users.
 
-**Contact:** `contact.pagequalis@gmail.com`
+<div class="contact">
+**Email:** [contact.pagequalis@gmail.com](mailto:contact.pagequalis@gmail.com)
+</div>
 
+<footer>
 PageQualis is an independent project.
+</footer>
