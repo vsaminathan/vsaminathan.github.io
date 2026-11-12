@@ -1,3 +1,8 @@
+---
+layout: default
+title: PageQualis Privacy Policy
+---
+
 # PageQualis Privacy Policy
 
 Last updated: November 11, 2026
@@ -38,6 +43,6 @@ your page is added to the link, and it is opened without sending a referrer.
 
 **Changes to this policy:** Any changes to this Privacy Policy will be reflected on this page, along with an updated "Last updated" date. Material changes to how PageQualis handles information will be clearly communicated to users.
 
-**Contact:** contact.pagequalis@gmail.com
+**Contact:** `contact.pagequalis@gmail.com`
 
 PageQualis is an independent project.
