@@ -44,9 +44,11 @@ your page is added to the link, and it is opened without sending a referrer.
 **Changes to this policy:** Any changes to this Privacy Policy will be reflected on this page, along with an updated "Last updated" date. Material changes to how PageQualis handles information will be clearly communicated to users.
 
 <div class="contact">
-**Email:** [contact.pagequalis@gmail.com](mailto:contact.pagequalis@gmail.com)
+  <strong>Email:</strong>
+  <a href="mailto:contact.pagequalis@gmail.com">
+    contact.pagequalis@gmail.com
+  </a>
 </div>
-
 <footer>
 PageQualis is an independent project.
 </footer>
