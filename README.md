@@ -4,7 +4,13 @@ This repository hosts public documentation, policies, and supporting pages for m
 
 ## Projects
 
-### PageQualis
+<h3>
+  <a href="https://chromewebstore.google.com/detail/pagequalis-webpage-qualit/gpahefndhokeelfobmkiidfpokfbkbae"
+     target="_blank"
+     rel="noopener noreferrer">
+    PageQualis
+  </a>
+</h3>
 
 - [Privacy Policy](https://vsaminathan.github.io/pagequalis/privacy-policy/)
 
