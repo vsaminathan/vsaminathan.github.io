@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +18,7 @@
       background: #f7f8fa;
       color: #374151;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   Roboto, Helvetica, Arial, sans-serif;
+        Roboto, Helvetica, Arial, sans-serif;
       font-size: 16px;
       line-height: 1.75;
       -webkit-font-smoothing: antialiased;
@@ -46,6 +47,7 @@
       object-fit: contain;
       display: block;
     }
+
     .brand {
       color: #111827;
       font-size: 17px;
@@ -98,7 +100,7 @@
       margin: 0 0 18px;
     }
 
-    ul{
+    ul {
       margin: 12px 0 22px;
       padding-left: 26px;
     }
@@ -176,8 +178,13 @@
   <header>
     <div class="header-inner">
       <div class="branding">
-        <img src="/assets/images/logo.png" alt="" class="brand-logo">
-      <span class="brand">PageQualis</span>
+        {% if page.show_logo %}
+        <a href="https://chromewebstore.google.com/detail/pagequalis-webpage-qualit/gpahefndhokeelfobmkiidfpokfbkbae"
+          target="_blank" rel="noopener noreferrer" aria-label="PageQualis on Chrome Web Store">
+          src="/assets/images/logo.png" alt="" class="brand-logo">
+          <span class="brand">PageQualis</span>
+        </a>
+        {% endif %}
       </div>
     </div>
   </header>
@@ -188,4 +195,5 @@
     </main>
   </div>
 </body>
+
 </html>
