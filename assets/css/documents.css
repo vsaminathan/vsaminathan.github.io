@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{{ page.title | default: site.title }}</title>
-  <meta name="description" content="{{ page.description | default: 'PageQualis Privacy Policy' }}">
-
-  <style>
     * {
       box-sizing: border-box;
     }
@@ -176,29 +165,3 @@
         margin-bottom: 24px;
       }
     }
-  </style>
-</head>
-
-<body>
-  <header>
-    <div class="header-inner">
-      <div class="branding">
-        {% if page.show_logo %}
-        <a href="https://chromewebstore.google.com/detail/pagequalis-webpage-qualit/gpahefndhokeelfobmkiidfpokfbkbae"
-          target="_blank" rel="noopener noreferrer" aria-label="PageQualis on Chrome Web Store">
-          <img src="/assets/images/logo.png" alt="" class="brand-logo">
-          <span class="brand">PageQualis</span>
-        </a>
-        {% endif %}
-      </div>
-    </div>
-  </header>
-
-  <div class="container">
-    <main>
-      {{ content }}
-    </main>
-  </div>
-</body>
-
-</html>

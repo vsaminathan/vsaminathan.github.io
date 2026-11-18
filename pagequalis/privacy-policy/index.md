@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: document
 show_logo: true
 title: PageQualis - Privacy Policy
 description: Privacy policy for PageQualis, a chrome browser extension for content-quality and accessibility issues.
