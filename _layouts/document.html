@@ -6,24 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{{ page.title | default: site.title }}</title>
-  <meta name="description" content="{{ page.description | default: 'PageQualis Privacy Policy' }}">
+  <meta name="description" content="{{ page.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/documents.css' | relative_url }}">
 </head>
 
 <body>
+  {% if page.show_logo %}
   <header>
     <div class="header-inner">
       <div class="branding">
-        {% if page.show_logo %}
         <a href="https://chromewebstore.google.com/detail/pagequalis-webpage-qualit/gpahefndhokeelfobmkiidfpokfbkbae"
           target="_blank" rel="noopener noreferrer" aria-label="PageQualis on Chrome Web Store">
           <img src="/assets/images/logo.png" alt="" class="brand-logo">
           <span class="brand">PageQualis</span>
         </a>
-        {% endif %}
       </div>
     </div>
   </header>
+  {% endif %}
 
   <div class="container">
     <main>
