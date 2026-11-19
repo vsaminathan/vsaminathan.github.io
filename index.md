@@ -11,14 +11,12 @@ This repository hosts public documentation, policies, and supporting pages for m
 ## Projects
 
 <h3>
-  <a href="https://chromewebstore.google.com/detail/pagequalis-webpage-qualit/gpahefndhokeelfobmkiidfpokfbkbae"
-     target="_blank"
-     rel="noopener noreferrer">
+  <a href="{{ '/pagequalis/' | relative_url }}">
     PageQualis
   </a>
 </h3>
 
-- [Privacy Policy](https://vsaminathan.github.io/pagequalis/privacy-policy/)
+- [Privacy Policy]({{ '/pagequalis/privacy-policy' | relative_url }})
 
 ## Contact
 

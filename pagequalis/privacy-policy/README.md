@@ -6,7 +6,7 @@ Public documentation and policies for PageQualis, a browser extension that check
 
 The official PageQualis Privacy Policy is available at:
 
-**[PageQualis Privacy Policy](https://vsaminathan.github.io/pagequalis/privacy-policy/)**
+**[PageQualis Privacy Policy]({{ '/pagequalis/privacy-policy' | relative_url }})**
 
 ## Contact
 
