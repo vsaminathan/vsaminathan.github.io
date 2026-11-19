@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  {% if page.show_logo %}
+  <link rel="icon" type="image/png" href="/assets/images/logo-16.png">
+  {% endif %}
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/documents.css' | relative_url }}">
@@ -16,7 +18,7 @@
     <div class="header-inner">
       <div class="branding">
         <a href="{{ '/pagequalis/' | relative_url }}">
-          <img src="/assets/images/logo.png" alt="" class="brand-logo">
+          <img src="/assets/images/logo-128.png" alt="" class="brand-logo">
           <span class="brand">PageQualis</span>
         </a>
       </div>
