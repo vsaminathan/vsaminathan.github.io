@@ -248,7 +248,7 @@
   max-width: 590px;
   margin: 0;
   color: var(--pq-navy);
-  font-size: clamp(40px, 5vw, 62px);
+  font-size: clamp(40px, 5vw, 50px);
   font-weight: 850;
   letter-spacing: -0.055em;
   line-height: 1.04;
