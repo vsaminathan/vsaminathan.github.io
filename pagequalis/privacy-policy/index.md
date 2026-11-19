@@ -46,8 +46,8 @@ your page is added to the link, and it is opened without sending a referrer.
 
 <div class="contact">
   <strong>Email:</strong>
-  <a href="mailto:contact.pagequalis@gmail.com">
-    contact.pagequalis@gmail.com
+  <a href="mailto:{{ site.contact.email }}">
+    {{ site.contact.email }}
   </a>
 </div>
 <footer>
