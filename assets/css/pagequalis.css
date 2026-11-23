@@ -690,6 +690,10 @@
   .product-page .section {
     padding-block: 54px;
   }
+  
+  .product-page .workflow-section {
+    padding-block: 0;
+  }
 
   .product-page .header-inner {
     min-height: 68px;
